@@ -1,6 +1,6 @@
 body {padding: 0; margin: auto;}
 h1	{font-family:Arial; margin: auto; text-align: center;}
 .p1	{text-align: center;font-family: Arial; position: absolute;left: 41%}
-input {position: absolute; top:50px;left: 48%}
+input {position: absolute; top:50px;left: 50%}
 button {position: absolute;top: 90px;left: 44%}
 .p2 {position: absolute;top: 110px;left: 42%}
