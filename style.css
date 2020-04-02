@@ -1,0 +1,153 @@
+
+body {margin: 0;
+	  padding: 0px;
+	  font-family: arial; 
+	  background: linear-gradient(white 0%,#CCC 100%);
+	 }
+/*----------------------------------Header--------------------------------------*/
+header {width: 100%;
+		height: 120px;
+		background: linear-gradient( 50deg,#35b8b0 15%,#1c799d 85%);
+		padding: 0px;}
+ul	{margin: 0px; 
+	list-style-type: none;
+	padding: 0px}
+.li0  {float: left; 
+	margin-top: 30px; 
+	}
+.li0:hover {background-color: #CCC9; cursor: pointer;}
+.li0 a img { padding: 15px; }
+.logo {margin-top: 30px;
+	   margin-left:110px;}
+.li1 {margin: 0px}
+.left {float: left;}
+.right ul{float: right;
+		 margin-right:6%;}
+/*----------------------------------Body--------------------------------------*/
+.corp {width: 100%; height: 100%;font-family: arial;}
+
+.a1 {text-decoration: none; 
+	text-align: center; 
+	color: #21a2a2;
+	font-size: 14px;
+	font-family: arial;
+	margin-left: 43%}
+.a1:hover {text-decoration: underline;}
+h1	{font-size: 30px; 
+	margin-left: 35%}
+h2	{margin-left: 10%}
+.tex{margin-left: 10%; 
+	margin-right: 10%; 
+	color: gray;}
+/*----------------------------------Form--------------------------------------*/
+form {margin-left: 10%;
+	margin-right: 10%; 
+	font-family: arial;}
+.nome {background-color: gray; 
+	color: white; 
+	display: inline-block; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	border-radius: 3px;
+	background: linear-gradient( 135deg,#35b8b0 0%,#1c799d 100%)}
+.circle { background-color: #525050; 
+	padding:3px; 
+	border-radius: 30px; 
+	width: 15px; 
+	display: inline-block; 
+	text-align: center;
+	box-shadow: 0px 0px 2px #443d3d}	
+.name1 {padding-left: 5px; 
+		width: 100%;
+		height: 30px;
+		}
+.social {width: 100%;
+		 height: 80px;
+		 background-color: white; color: white;
+		 box-shadow: inset 1px 3px 0px 0px #bfbaba;}
+.recas {width: 304px;
+    height: 78px;
+    background-color: #fffafaa3;
+    box-shadow: 0 0 1px 0 #0e0e0e;
+}
+.b2 {margin-left: 38px;
+    border-radius: 7px;
+    border-radius: 10p;
+    margin-top: 9%;
+    background-color: #525050;
+    color: #dededa;
+    box-shadow: 1px 1px 2px 1px black;
+    border: none; transition: all .2s;
+	outline: none;}
+.b2:hover {color: #525050; background-color:#dededa  }
+   .text2 {width: 20px;
+    height: 20px;
+    margin-left: 16%;
+    margin-top: 18px;}
+.box {float: left;
+}
+.botao {width: 100%;
+		height: 50px;
+		text-align: center;
+		background: linear-gradient( 50deg,#35b8b0 15%,#1c799d 85%);
+		color:white;
+		border-radius: 3px;
+		border-color:black;
+		font-size: 20px;
+		border:none; transition: all .2s;
+		outline: none;}
+.botao:hover{
+		box-shadow: inset 3px -3px 8px 0 #484040cc;
+    	border: none;}
+}
+.mart {margin-bottom: 0px;}
+h6	{margin-top: 18px;padding: 0px; color: gray}
+.a2:hover {text-decoration: underline;}
+/*----------------------------------Footer------------------------------------------*/
+.a6 {text-decoration: none; 
+	text-align: center; 
+	color: #21a2a2;
+	font-size: 14px;
+	font-family: arial;
+	margin-left: 43%}
+.rod {background-color: white}
+
+h4	{font-size: 18px; text-align: left; color: #524545}
+.obj_1 {width: 100%; height:200px;}
+.obj_2 {width: 80%; height: 160px; margin: auto;}
+.obj_3 {width: 60%; height:160px;; margin: auto;}
+.obj_4 {width: 50%; height: 160px;e; margin-left: 170px}
+.img 	{width: 160px; height: 160px; float: left;}
+.haa {width: 100%; height: 95.6px; background: linear-gradient( 50deg,#35b8b0 15%,#1c799d 85%);}
+h5 {color: gray;}
+.texto {width: 80%; height: 80%; margin: auto; text-align: center; font-size: 13px}
+.a2 {text-decoration: none; color: black;}
+.a2:hover {text-decoration: underline;}
+/*-------------------------------------------------------------------------------------*/
+.div1 {display: none; background-color: rgba(24, 24, 28, 0.84);
+    width: 100%;
+    height: 1697.13px;
+    position: fixed;
+    z-index: 4;}
+.div2 {width: 80%;
+    height: 37%;
+    background-color: white;
+    margin: auto;
+    margin-top: 8%;}
+.div3 {width: 20%;
+    height: 627.925px;
+    background-color: #131313;
+    float: left;
+}
+.div4 {width: 80%;
+    height: 627.925px;
+    background-color: #ebebeb;
+    float: right;
+}
+.error {background-color: red;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-radius: 10px; 
+    display: none;
+}
