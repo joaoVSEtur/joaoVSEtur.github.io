@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gerador de Cancelamento</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<h1>Gerador de cancelamento</h1>
+	<p class="p1">Meu nome:</p>
+	<input type="text" name="" placeholder="seu nome aqui" class="texto">
+	<button onclick="gerar()">Gerar meu cancelamento</button>
+	<p class="p2"></p>
+
+
+</body>
+<script type="text/javascript">
+	function gerar() {
+		var elogios = ["atencioso","agradável","adorável","amável","afável","amigo", "fiel","forte","franco","frontal","firme","fantástico","Morcão", "malacueco", "maluco", "mariquinhas pé-de-salsa", "meliante", "mentiroso", "malandro", "malandreco", "malandrim", "marreco", "maneta", "mouco", "mariconço", "maricas", "menino da mamã", "mastronço", "mostrengo", "moina", "meia-leca", "medroso", "monhé", "molengão", "mafioso", "medricas", "masoquista", "mineteiro", "maltrapilho", "maria-vai-com-as-outras", "miserável", "magricela", "mula", "mal enjorcado", "mimado"]
+		document.getElementsByClassName('p2')[0].innerText=document.getElementsByClassName("texto")[0].value + " foi cancelado(a) por ser " + elogios[Math.round(Math.random()*45)];
+		document.getElementsByClassName("texto")[0].value="";
+}
+
+
+</script>
+</html>
